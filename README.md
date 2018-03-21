@@ -16,3 +16,12 @@ What this app does:
 What this app does **NOT** do:
 
 - Implement user authentication
+
+## gradle
+`./gradlew bootRun`
+
+### clean
+`./gradlew clean`
+
+## H2 TCP Local Server
+`java -cp h2-1.4.197.jar org.h2.tools.Server`
