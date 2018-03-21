@@ -29,12 +29,12 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile("org.springframework.boot:spring-boot-starter-thymeleaf")
-    compile("org.hashids:hashids:1.0.3")
-    compile("org.springframework:spring-orm")
-    compile("org.hibernate:hibernate-core")
-    compile("org.apache.tomcat:tomcat-dbcp:9.0.6")
-    compile("com.h2database:h2")
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
+    compile('org.hashids:hashids:1.0.3')
+    compile('org.springframework:spring-orm:5.0.4.RELEASE')
+    compile('org.hibernate:hibernate-core:5.2.15.Final')
+    compile('org.apache.tomcat:tomcat-dbcp:9.0.6')
+    compile('com.h2database:h2:1.4.197')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
